@@ -9,7 +9,7 @@ type Car struct {
 	Color string
 }
 
-func Structs() {
+func main() {
 	audi := Car{"Audi", "White"}
 	fmt.Println(audi)
 	fmt.Printf("%+v\n", audi)
